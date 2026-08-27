@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Beautiful Project</title>
     <style>
       :root {
-        --bg: #f0f4f8;
-        --text: #1a2332;
-        --accent: #3b82f6;
+        --bg: #faf3eb;
+        --text: #3d2c1e;
+        --muted: #6b5344;
+        --accent: #c45c26;
       }
 
       * {
@@ -23,17 +24,40 @@
         font-family: system-ui, sans-serif;
         background: var(--bg);
         color: var(--text);
+        padding: 1.5rem;
+      }
+
+      main {
+        max-width: 36rem;
+        text-align: center;
       }
 
       h1 {
-        margin: 0;
+        margin: 0 0 1rem;
         font-size: clamp(2rem, 5vw, 3rem);
         font-weight: 600;
         color: var(--accent);
       }
+
+      p {
+        margin: 0 0 0.85rem;
+        font-size: 1.05rem;
+        line-height: 1.6;
+        color: var(--muted);
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
     </style>
   </head>
   <body>
-    <h1>Hallo, alles klar? Ja, bei dir?</h1>
+    <main>
+      <h1>Hallo, alles klar?<br />Ja, bei dir?</h1>
+      <p>
+        My Beautiful Project is a small personal playground for ideas and
+        everyday development experiments — started 27 August 2026.
+      </p>
+    </main>
   </body>
 </html>

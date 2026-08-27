@@ -4,4 +4,4 @@ This is the bootcamp test project.
 
 # License
 
-No License.
+MIT License. See [LICENSE](LICENSE).

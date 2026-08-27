@@ -1,6 +1,6 @@
 # Hello again
 
-This is the bootcamp test project.
+This is my personal test project.
 
 # License
 

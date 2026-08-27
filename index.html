@@ -4,6 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      :root {
+        --bg: #f0f4f8;
+        --text: #1a2332;
+        --accent: #3b82f6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 600;
+        color: var(--accent);
+      }
+    </style>
   </head>
   <body>
     <h1>Hallo, alles klar? Ja, bei dir?</h1>
